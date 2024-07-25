@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'SLNTHLE';
+    src: url('silentfont/SLNTHLE.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question-container input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.question-container button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tarot-deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://m.media-amazon.com/images/I/71sdwb9qyES._SY466_.jpg'); 
+}
+
+.card-description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #9e009e;
+    font-family: 'SLNTHLE', Arial, sans-serif; /* Aplicar la fuente SLNTHLE */
+}
