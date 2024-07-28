@@ -33,9 +33,8 @@ function drawCard() {
     card.innerHTML = '';
     cardDescription.innerHTML = `<strong>${selectedCard.name}</strong>: ${selectedCard.description}`;
 
-
-     if (selectedCard.name === 'La Muerte') {
-     
+    if (selectedCard.name === 'La Muerte') {
+        
         window.open('https://jonatan666-red.vercel.app/', '_blank');
     }
 }
